@@ -11,7 +11,7 @@ public class Main {
         tilinum = tilinum.replaceAll("\\s", "");
         //tallentaa maatunnuksen ja kaksinumeroisen tarkistenumeron
         String tun = tilinum.substring(0,4);
-        //tallentaa ekan ja tokan kirjaimen ja tekee niistä numeroita
+        //tallentaa ekan ja tokan kirjaimen ja tekee niistä numeroita getpositionin avulla
         char EKACHAR = tilinum.charAt(0);
         char TOKACHAR = tilinum.charAt(1);
         int position1 = getPosition(EKACHAR);
